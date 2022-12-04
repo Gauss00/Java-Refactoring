@@ -20,7 +20,7 @@ public class Student extends UniversityPerson{
     }
 
     public String getPosition(){
-        return "Студент";
+        return "Student";
     }
 
     public void live() {

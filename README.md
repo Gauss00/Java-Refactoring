@@ -1,5 +1,5 @@
 # Java-Refactoring
-Refactoring methods
+
 Refactoring Methods: Field Lifting, Method Lifting, Collection Encapsulation,
 Subclass Extraction, Constructor Body Lifting, Method Descent, Field Descent,
 Interface Extraction, Hierarchy Collapse, Replacing Inheritance with Delegation,

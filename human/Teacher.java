@@ -15,7 +15,7 @@ public class Teacher extends UniversityPerson {
     }
 
     public String getPosition(){
-        return "Преподаватель";
+        return "Teacher";
     }
 
     public void live() {

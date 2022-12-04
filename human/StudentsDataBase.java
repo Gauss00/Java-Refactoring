@@ -13,7 +13,7 @@ public class StudentsDataBase {
     }
 
     public static void printInfoAboutStudent(Student student) {
-        System.out.println("Имя: " + student.getName() + " Возраст: " + student.getAge());
+        System.out.println("Name: " + student.getName() + " Age: " + student.getAge());
     }
 
     public static void removeStudent(int index) throws IndexOutOfBoundsException {
@@ -26,12 +26,12 @@ public class StudentsDataBase {
 
         for (int i = 0; i < students.size(); i++) {
             if (students.get(i).getName().equals("Dima")) {
-                System.out.println("Студент Dima есть в базе.");
+                System.out.println("Student Dima is in the database.");
                 break;
             }
 
             if (students.get(i).getName().equals("Sasha")) {
-                System.out.println("Студент Sasha есть в базе.");
+                System.out.println("Student Sasha is in the database.");
                 break;
             }
 

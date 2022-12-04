@@ -54,7 +54,7 @@ public class Human implements Alive{
     }
 
     public String getPosition(){
-        return "Человек";
+        return "People";
     }
 
     public void live() {
@@ -77,7 +77,7 @@ public class Human implements Alive{
     }
 
     public void printSize() {
-        System.out.println("Рост: " + size.height + " Вес: " + size.weight);
+        System.out.println("Height: " + size.height + " Weight: " + size.weight);
     }
 
     public void printData() {

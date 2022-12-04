@@ -3,8 +3,8 @@ package Refact.user;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class UserHelper {
-    private User userAnya = new User("Аня", "Смирнова", 10);
-    private User userRoma = new User("Рома", "Виноградов", 30);
+    private User userAnya = new User("Anna", "Karenina", 10);
+    private User userRoma = new User("Tom", "Holland", 30);
 
 
 
@@ -17,7 +17,7 @@ public class UserHelper {
     }
 
     public int calculateAverageAge() {
-        User userUra = new User("Юра", "Карп", 28);
+        User userUra = new User("Asap ", "Rocky", 28);
         return  (userAnya.getAge() + userRoma.getAge() + userUra.getAge()) / 3;
     }
 

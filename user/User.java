@@ -19,15 +19,15 @@ public class User {
     }
 
     public void printInfo() {
-        System.out.println("Имя: " + getName());
-        System.out.println("Фамилия: " + getSurname());
+        System.out.println("Name: " + getName());
+        System.out.println("Surname: " + getSurname());
     }
 
     public void printAdditionalInfo() {
         if (getAge() < 16)
-            System.out.println("Пользователь моложе 16 лет");
+            System.out.println("User under 16");
         else
-            System.out.println("Пользователь старше 16 лет");
+            System.out.println("User over 16 years old");
     }
 
     public String getBoss(){
